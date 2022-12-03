@@ -1,0 +1,22 @@
+.about {
+  margin-top: 153px;
+  height: 542px;
+}
+
+.container__about {
+  position: relative;
+}
+
+.about__img {
+  float: left;
+}
+
+.about__content {
+  position: absolute;
+  top: 97px;
+  right: 0;
+  width: 785px;
+  height: 455px;
+  border-radius: 5px;
+  background: url(../../img/Rectangle\ 10.png)
+}
