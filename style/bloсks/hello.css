@@ -1,0 +1,58 @@
+.hello {
+  margin-top: 209px;
+  /* height: 505px; */
+}
+
+.container__hello {
+  position: relative;
+  /* display: block; */
+}
+
+.title__hello {
+  /* position: absolute; */
+  display: block;
+  /* float: left; */
+  max-width: 637px;
+  /* height: 194px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.subtitle__hello {
+  /* position: absolute; */
+  display: block;
+  margin-top: 21px;
+  /* float: left; */
+  max-width: 221px;
+  /* height: 27px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+}
+
+.button__hello {
+  /* position: absolute; */
+  display: block;
+  margin-top: 76px;
+  max-width: 168px;
+  /* padding: 18px 40px; */
+  /* border: none; */
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background: #8F00FF;
+}
+
+/* 1-ввести в hello контейнер с контентом, 
+тк были напонятки с позиционированием. 
+2-Позиционирование  от края контейнера! 
+3-Как определить высоту контейнера. Почему не изменяется высота?
+4- почему бордер у кнопки? 
+5- BUTTON перенести в БАЗЕ.СSS?
+6- Изменил класс title subtitle*/

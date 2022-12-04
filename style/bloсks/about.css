@@ -1,6 +1,6 @@
 .about {
-  margin-top: 153px;
-  height: 542px;
+  margin-top: 221px;
+  height: 573px;
 }
 
 .container__about {
@@ -13,10 +13,36 @@
 
 .about__content {
   position: absolute;
-  top: 97px;
+  top: 118px;
   right: 0;
   width: 785px;
   height: 455px;
   border-radius: 5px;
-  background: url(../../img/Rectangle\ 10.png)
+  background: url(../../img/Rectangle\ 10.png);
+  padding: 70px 81px 164px;
 }
+
+.about__description {
+  margin-top: 37px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 502px;
+}
+
+.button {
+  width: 168px;
+  padding: 18px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.button--transparent {
+  margin-top: 43px;
+} 

@@ -1,0 +1,75 @@
+.pastgame {
+  margin-top: 127px;
+}
+
+.pastgame__item {
+  position: relative;
+  width: 537px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pastgame__img {
+  margin-top: 46px;
+  min-width: 100%;
+  min-width: 100%;
+  background: linear-gradient(0deg, rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4)),
+}
+
+.pastgame__content {
+  position: absolute;
+  left: o;
+  right: 0;
+  bottom: 0;
+  padding: 17px 45px;
+  min-height: 120px;
+}
+
+.pastgame__date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.pastgame__title {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.pastgame__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.paginator {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.paginator__display {
+  margin-right: 21px;
+  vertical-align: middle; 
+}
+
+
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__icon  {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 24px;
+}
