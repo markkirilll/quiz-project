@@ -1,4 +1,6 @@
 .footer {
-  height: 150px;
-  position: relative;
+  margin-top: 53px;
+  background: url(../../img/фон.jpg);
+  background-repeat: no-repeat;
+  min-height: 100%;
 }
