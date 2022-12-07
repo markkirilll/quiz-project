@@ -34,7 +34,7 @@
 .button {
   width: 168px;
   padding: 18px 40px;
-  border: 1px solid #FFFFFF;
+
   border-radius: 5px;
   font-style: normal;
   font-weight: 700;
@@ -45,4 +45,5 @@
 
 .button--transparent {
   margin-top: 43px;
+  border: 1px solid #FFFFFF;
 } 

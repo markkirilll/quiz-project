@@ -25,6 +25,7 @@ body {
 
 .wrapper__content {
   position: relative;
+
 }
 
 .wrapper__content--main {
@@ -42,7 +43,7 @@ body {
 
 
 .button {
-  border: 0;
+  /* border: 0; */
   cursor: pointer;
 }
 
@@ -79,13 +80,18 @@ a {
   cursor: pointer;
   text-decoration: none;
   display: block;
+  /* width: 32px;
+  height: 32px; */
 }
 
-/* a:hover {
-  background: #741BBA;
+a:hover {
+  /* background: #741BBA;
   box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
-  border-radius: 5px;
-} */
+  border-radius: 5px; */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
 
 img {
   display: block;
@@ -158,4 +164,3 @@ img {
   font-size: 36px;
   line-height: 49px;
 }
-

@@ -1,6 +1,64 @@
 .footer {
-  margin-top: 53px;
-  background: url(../../img/фон.jpg);
-  background-repeat: no-repeat;
-  min-height: 100%;
+  height: 152px;
+  position: relative;
+  background: url(../../img/фон.png);
+  padding-top: 53px;
 }
+
+/* .logo__footer {
+  margin-top: 52px;
+} */
+
+.socials {
+  top: 53px;
+  right: 300px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.social__item--icon--telegram .socials__link {
+  background-image: url(../../img/telegram.png);
+}
+
+.social__item--icon--vk .socials__link {
+  background-image: url(../../img/vk.png);
+}
+
+.social__item--icon--fb .socials__link {
+  background-image: url(../../img/f.png);
+}
+
+.social__item--icon--insta .socials__link {
+  background-image: url(../../img/in.png);
+}
+
+/* .contacts__call {
+  margin-top: 53px;
+  color: black;
+} */
+
+/* .footer {
+  margin-top: 53px;
+  min-height: 100%;
+} */
+/* .footer {
+  margin-top: 53px;
+  min-height: 100%;
+  background: #17191C
+} */
