@@ -7,6 +7,11 @@
   width: 537px;
   display: inline-block;
   vertical-align: top;
+  margin-right: 26px;
+}
+
+.pastgame__item:last-child {
+  margin-right: 0;
 }
 
 .pastgame__img {
@@ -82,12 +87,12 @@
   margin-right: 24px;
 }
 
-.paginator__icon:hover {
+/* .paginator__icon:hover {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   color: #fff;
   background: #8F00FF;
   line-height: 32px;
-}
+} */
 

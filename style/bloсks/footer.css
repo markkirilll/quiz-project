@@ -10,8 +10,10 @@
 } */
 
 .socials {
-  top: 53px;
+  top: 80px;
   right: 300px;
+  position: absolute;
+  display: inline-block;
 }
 
 .socials__item {
@@ -48,17 +50,16 @@
   background-image: url(../../img/in.png);
 }
 
-/* .contacts__call {
-  margin-top: 53px;
-  color: black;
-} */
+.contacts {
+  margin-top: 20px;
+}
 
-/* .footer {
-  margin-top: 53px;
-  min-height: 100%;
-} */
-/* .footer {
-  margin-top: 53px;
-  min-height: 100%;
-  background: #17191C
-} */
+
+.contacts__call {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+}
+
