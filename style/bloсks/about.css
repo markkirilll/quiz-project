@@ -3,6 +3,14 @@
   height: 573px;
 }
 
+.about__background {
+  position: absolute;
+  mix-blend-mode: luminosity;
+  box-shadow: inset 0px -110px 80px #17191C;
+}
+
+
+
 .container__about {
   position: relative;
 }
