@@ -1,15 +1,23 @@
 .about {
   margin-top: 221px;
   height: 573px;
+  position: relative;
 }
 
 .about__background {
   position: absolute;
-  mix-blend-mode: luminosity;
-  box-shadow: inset 0px -110px 80px #17191C;
+  filter: grayscale(1);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: -595px;
 }
 
-
+.about__background--low {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .container__about {
   position: relative;

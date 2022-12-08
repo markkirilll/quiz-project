@@ -1,29 +1,4 @@
 header {
   height: 77px;
-
+  position: relative;
 }
-
-/* .menu__link:hover {
-  color: #8F00FF;
-  background: none;
-} */
-
-/* img {
-  display: block;
-  margin-top: 34px;
-  margin-left: 290px;
-  position: absolute;
-}
-
-.menu {
-  width: 391px;
-  height: 27px;
-}
-
-a.menu__link {
-  display: inline-block;
-  margin-top: 34px;
-  margin-left: 390px;
-  vertical-align: middle;
-  position: absolute;
-} */
