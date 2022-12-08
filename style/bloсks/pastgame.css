@@ -8,6 +8,7 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 26px;
+  z-index: 10;
 }
 
 .pastgame__item:last-child {
@@ -55,11 +56,14 @@
 .paginator {
   margin-top: 53px;
   text-align: center;
+  z-index: 100;
 }
 
-.paginator__display, .paginator__list {
+.paginator__display,
+.paginator__list {
   display: inline-block;
-  vertical-align: middle; 
+  vertical-align: middle;
+  z-index: 100;
 }
 
 .paginator__display {
@@ -68,6 +72,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  z-index: 100;
 }
 
 
@@ -75,16 +80,18 @@
 .paginator__item {
   vertical-align: middle;
   display: inline-block;
+  z-index: 100 ;
 }
 
 
-.paginator__icon  {
+.paginator__icon {
   display: block;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   margin-right: 24px;
+  z-index: 100;
 }
 
 /* .paginator__icon:hover {
@@ -95,4 +102,3 @@
   background: #8F00FF;
   line-height: 32px;
 } */
-

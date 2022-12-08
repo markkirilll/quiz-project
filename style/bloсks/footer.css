@@ -1,7 +1,5 @@
 .footer {
-  /* height: 152px; */
   position: relative;
-  /* padding-top: 53px; */
   margin: 53px;
   border-top-style: groove;
   border-width: 4px;
@@ -11,7 +9,7 @@
 
 .socials {
   top: 30px;
-  right: 250px;
+  right: 220px;
   position: absolute;
   display: inline-block;
 }
