@@ -2,3 +2,7 @@ header {
   height: 77px;
   position: relative;
 }
+
+.menu__link:hover {
+  color: #8F00FF;
+}

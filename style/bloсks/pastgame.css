@@ -54,6 +54,7 @@
 }
 
 .paginator {
+  position: relative;
   margin-top: 53px;
   text-align: center;
   z-index: 100;
@@ -67,7 +68,7 @@
 }
 
 .paginator__display {
-  margin-right: 25px;
+  margin-right: 10px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -89,16 +90,18 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
-  margin-right: 24px;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
   z-index: 100;
 }
 
-/* .paginator__icon:hover {
+.paginator__icon:hover {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   color: #fff;
   background: #8F00FF;
   line-height: 32px;
-} */
+}

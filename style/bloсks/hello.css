@@ -1,19 +1,14 @@
 .hello {
   margin-top: 209px;
-  /* height: 505px; */
 }
 
-.container__hello {
+.hello__container {
   position: relative;
-  /* display: block; */
 }
 
 .title__hello {
-  /* position: absolute; */
   display: block;
-  /* float: left; */
   max-width: 637px;
-  /* height: 194px; */
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -21,12 +16,9 @@
 }
 
 .subtitle__hello {
-  /* position: absolute; */
   display: block;
   margin-top: 21px;
-  /* float: left; */
   max-width: 221px;
-  /* height: 27px; */
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -34,12 +26,9 @@
 }
 
 .button__hello {
-  /* position: absolute; */
   display: block;
   margin-top: 76px;
   max-width: 168px;
-  /* padding: 18px 40px; */
-  /* border: none; */
   border-radius: 5px;
   font-style: normal;
   font-weight: 700;
