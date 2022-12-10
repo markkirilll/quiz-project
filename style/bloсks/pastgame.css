@@ -2,6 +2,10 @@
   margin-top: 127px;
 }
 
+.title {
+  position: relative;
+}
+
 .pastgame__item {
   position: relative;
   width: 537px;

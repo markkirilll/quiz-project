@@ -9,17 +9,17 @@
   filter: grayscale(1);
   left: 0;
   width: 100%;
-  height: 775 px;
-  top: -595px;
+  /* height: 775 px; */
+  top: -410px;
 }
 
-.about__background--low {
+.about__background-low {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.container__about {
+.about__container {
   position: relative;
 }
 
@@ -47,19 +47,22 @@
   max-width: 502px;
 }
 
-.button {
+/* .button {
   width: 168px;
   padding: 18px 40px;
-
   border-radius: 5px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
-}
+} */
 
 .button--transparent {
   margin-top: 43px;
   border: 1px solid #FFFFFF;
 } 
+
+.button--transparent:hover {
+  background: #8F00FF;
+}

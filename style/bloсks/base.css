@@ -51,6 +51,17 @@ body {
   cursor: pointer;
 }
 
+.button {
+  width: 168px;
+  padding: 18px 40px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
 }

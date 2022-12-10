@@ -99,22 +99,27 @@
 }
 
 
-.button__offers--light {
+.button--light {
   margin-top: 25px;
   width: 135px;
   padding: 18px 30px;
   border: 1px solid #8F00FF;
-  border-radius: 5px;
+  /* border-radius: 5px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  text-transform: uppercase;
+  text-transform: uppercase; */
   color: #8F00FF;
   ;
 }
 
-.button__offers {
+.button--light:hover {
+  background: #8F00FF;
+  color: #FFFFFF;
+}
+
+.offers__button {
   margin-top: 25px;
   background: #8F00FF;
   color: #FFFFFF;
