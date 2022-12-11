@@ -23,7 +23,7 @@ body {
   position: relative;
 }
 
-.wrapper--background {
+.wrapper__background {
   position: absolute;
   filter: grayscale(1);
   width: 100%;
