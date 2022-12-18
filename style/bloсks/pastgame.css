@@ -57,7 +57,7 @@
   line-height: 21px;
 }
 
-.paginator {
+/* .paginator {
   position: relative;
   margin-top: 53px;
   text-align: center;
@@ -78,14 +78,34 @@
   font-size: 16px;
   line-height: 20px;
   z-index: 100;
+} */
+
+.paginator {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
 }
 
+.paginator__display {
+  display: flex;
+  margin-right: 5%;
+}
+
+.paginator__list {
+  display: inline-flex;
+}
+
+.paginator__icon {
+  display:inline-flex;
+  justify-content: center;
+}
 
 
 .paginator__item {
   vertical-align: middle;
   display: inline-block;
-  z-index: 100 ;
+  z-index: 100;
 }
 
 

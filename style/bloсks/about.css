@@ -21,6 +21,7 @@
 
 .about__container {
   position: relative;
+  bottom: 53px;
 }
 
 .about__img {

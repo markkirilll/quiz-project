@@ -1,0 +1,85 @@
+.games-main-content {
+  background: #FFF;
+  padding-top: 109px;
+}
+
+.games {
+  background: #FFF;
+}
+
+/* .container__games {
+  background: #FFF;
+} */
+
+.game__item {
+  display: inline-flex;
+  margin-top: 49px;
+}
+
+.game__header {
+  display: flex;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.game__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.game__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000;
+}
+
+.game__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #303030;
+  /* display: flex; */
+}
+
+.game-button {
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8F00FF;
+  margin-top: 5%;
+}
+
+.game-button:hover {
+  background: #8F00FF;
+  border-radius: 5px;
+  color: #FFF;
+}
+
+.paginator-games {
+  color: #000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.paginator__display {
+  display: flex;
+  margin-right: 5%;
+}
+
+.paginator__list {
+  display: inline-flex;
+}
+
+.paginator__icon {
+  display:inline-flex;
+  justify-content: center;
+}

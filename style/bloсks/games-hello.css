@@ -1,0 +1,12 @@
+.games-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  margin: 107px 0;
+}
+
+.games__list {
+  display: inline-flex;
+  padding-bottom: 3%;
+}
